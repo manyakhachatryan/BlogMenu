@@ -1,0 +1,57 @@
+.register{
+    height: calc(100vh - 50px); 
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(231, 233, 182, 0.5),
+                                rgba(19, 0, 0, 0.5)),
+                                 url("https://dietdetective.com/wp-content/uploads/shutterstock_1261488706.jpg");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-family: 'Poppins';
+    font-size: 50px;
+}
+
+.registerForm{
+    font-family: 'Poppins';
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm >label{
+    font-family: 'Poppins';
+    margin: 10px 0;
+}
+
+.registerInput{
+    font-family: 'Poppins';
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(33, 3, 3);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute; 
+    top: 60px;
+    right: 20px;
+    background-color: rgb(33, 3, 3);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px; 
+}   
